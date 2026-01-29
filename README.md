@@ -12,8 +12,6 @@
 
 ## Installation
 
-(Coming soon via pip)
-
 For now, clone and run:
 
 ```bash
