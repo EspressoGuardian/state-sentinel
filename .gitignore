@@ -1,9 +1,50 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
 
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
+env/
+venv/
 
-# Local Tools config
+# Python tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Security / local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+*_rsa
+id_rsa*
+id_ed25519*
+secrets/
+secret/
+private/
+*.secret
+*.secrets
+
+# Local project config
 tools/ci/
-*.json
+
+# Logs and temp artifacts
+*.log
+*.tmp
+*.bak
